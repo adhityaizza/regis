@@ -9,7 +9,7 @@
 </head>
 <body>
 <div class="container">
-    <h1 class="title">Azin</h1>
+    <h1 class="title">Login Dosen</h1>
     <div class="card">
         <form action="./process/login_process.php" method="post">
             <input type="text" name="username" placeholder="Username">

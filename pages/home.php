@@ -9,13 +9,7 @@
     <title>Document</title>
 </head>
 <body>
-    <?php
-    // Start the session
-    session_start();
-
-    $_SESSION["favcolor"] = "green";
-    ?>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" style="background-color: #e3f2fd;">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">Data Dosen</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -29,13 +23,18 @@
                 <li class="nav-item">
                 <a class="nav-link" href="../pages/add_dosen.php">Tambah Data</a>
                 </li>
+                <li class="nav-item">
+                <a class="nav-link" href="../index.php">Log Out</a>
+                </li>
             </ul>
             </div>
         </div>
     </nav>
 
     <div class="container">
-
+    <h1 style="margin-top: 25px;">
+        List Dosen
+    </h1>
     <table class="table table-hover" style="margin-top: 50px;">
         <thead>
             <tr class="tr">
